@@ -128,7 +128,7 @@
    files:
      - "*.woff"
      - "*.woff2"
-   from: "node_modules/inter-ui/Inter UI (web)"
+   from: "node_modules/inter-ui/Lato (web)"
    to: "assets/fonts"
 -
   files: "jquery.smartWizard.min.js"
