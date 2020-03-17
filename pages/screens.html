@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>MMHN Toolkit App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Helping women understand and manage prenatal and post-partum depression">
+    <link href="<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicons.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons.ico/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicons.ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons.ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body data-smooth-scroll-offset="120">
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container ">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary-3" data-sticky="top">
+        <div class="container-fluid">
+          <a class="navbar-brand fade-page" href="../index.html">
+            <img src="assets/img/logo-mom.svg" width="60">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="../assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="../assets/img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">About</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown-grid" aria-expanded="false" aria-haspopup="true">Credits</a>
+                </li>
+              </ul>
+            <!-- </div><a href="#" class="btn btn-primary ml-lg-3">Purchase Now</a> -->
+          </div>
+
+        </div>
+      </nav>
+    </div>
+
+    <button class="btn btn-lg btn-primary btn-block rounded-0 d-md-none" type="button" data-toggle="collapse" data-target="#docs-index" aria-expanded="false" aria-controls="docs-index">
+      <img class="icon" src="../assets/img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+      <span>Topics Index</span>
+    </button>
+
+    <section class="container-fluid py-0">
+      <div class="row">
+        <div class="col-12 col-md-3 col-lg-2 border-right pt-3 pt-md-5 docs-sidebar">
+          <div id="docs-index" class="collapse">
+            <div></div>
+            <div class="mb-3 mb-md-4">
+              <h5>Quick Links</h5>
+              <a href="highrisk.html"><h6 class="mb-2">High Risk Guidelines</h6></a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="highrisk.html#highrisk" class="nav-link text-small">Child Abuse</a>
+                </li>
+                <li class="nav-item">
+                  <a href="highrisk.html#suicideRisk" class="nav-link text-small">Suicide/Risk Assessment</a>
+                </li>
+                <li class="nav-item">
+                  <a href="highrisk.html#mania" class="nav-link text-small">Psychosis or Mania</a>
+                </li>
+                <li class="nav-item">
+                  <a href="highrisk.html#substance" class="nav-link text-small">Substance Abuse</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-3 mb-md-4">
+              <a href="screens.html"><h6 class="mb-2">Screens / Actions</h6></a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="screens.html#PHQ" class="nav-link text-small">PHQ-9</a>
+                </li>
+                <li class="nav-item">
+                  <a href="screens.html#EDPS" class="nav-link text-small">EDPS</a>
+                </li>
+                <li class="nav-item">
+                  <a href="screens.html#GAD" class="nav-link text-small">GAD-7</a>
+                </li>
+                <li class="nav-item">
+                  <a href="screens.html#referral" class="nav-link text-small">Referral strategies</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mb-3 mb-md-4">
+              <a href="scripts.html"><h6 class="mb-2">Scripts</h6></a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#scripts-first" class="nav-link text-small">First contact</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#scripts-cases" class="nav-link text-small">Case scenarios</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <div class="col-md-9 col-lg-10">
+          <div class="row">
+            <div class="col-xl-10 col-lg-9 px-xl-6 px-lg-4 px-md-3 py-md-5">
+              
+              <article id="PHQ" class="mb-4 mb-md-6">
+                <h3>
+                  <p>PHQ-9 Patient Health Questionnaire</p>
+                </h3>
+
+                <div>
+                  <table class="table table-striped">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" width="20%">PHQ-9 Score</th>
+                        <th scope="col" width="25%">Interpretation</th>
+                        <th scope="col" width="55%">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">0 &ndash; 4</th>
+                        <td>Minimal risk of depression</td>
+                        <td>Continue support and education</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5 &ndash; 9</th>
+                        <td>Mild risk of depression</td>
+                        <td>Continue support, education, and monitor. Re-screen often. Provide resources.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10 &ndash; 14</th>
+                        <td>Moderate risk of depression</td>
+                        <td>Refer to PCP &plusmn; mental health services for follow-up. Re-screen often.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15 &ndash; 19</th>
+                        <td>Moderately severe risk of depression</td>
+                        <td>Refer to PCP &plusmn; mental health services for follow-up. Re-screen often and monitor closely. Treatment plan that includes psychotherapy and possibly medications.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">20 &ndash; 27</th>
+                        <td>Severe risk of depression</td>
+                        <td>Initiate immediate referral to psychiatric collaborative care, psychiatric evaluations and/or therapy with close monitoring.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Positive score<br>(1, 2 or 3) on Question 9 (risk of suicidality)</th>
+                        <td></td>
+                        <td>Immediate action and referral to mental health care. Refer to PCP &plusmn; mental health specialist or emergency resource for further assessment and intervention as appropriate. Urgency of referral will depend on several factors including: whether the suicidal ideation is accompanied by a plan, whether there has been a history of suicide attempts, whether symptoms of a psychotic disorder are present and/or there is concern about harm to the baby.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="text-small">Source: Kroenke K., Spitzer RL., Psychiatric Annals 2002; 32:509-521</p>
+                </div>
+              </article>
+
+              <article id="EDPS" class="mb-4 mb-md-6">
+                <h3>
+                  <p>EPDS &mdash; Edinburgh Postnatal Depression Screen</p>
+                </h3>
+                <div>
+                  <table class="table table-striped">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" width="20%">EDPS Score</th>
+                        <th scope="col" width="20%">Interpretation</th>
+                        <th scope="col" width="60%">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Less than 8</th>
+                        <td>Depression not likely</td>
+                        <td>Continue support and education</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9 &ndash; 11</th>
+                        <td>Depression possible</td>
+                        <td>Support, re-screen in 2–4 weeks. Consider referral to Primary Care Provider (PCP).</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12 &ndash; 13</th>
+                        <td>Fairly high possibility of depression</td>
+                        <td>Monitor, support and offer education. Refer to PCP.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14 and higher (positive screen)</th>
+                        <td>Probable depression</td>
+                        <td>Diagnostic assessment and treatment by PCP and/or specialist.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Positive score<br>(1, 2 or 3) on Question 10 (risk of suicidality)</th>
+                        <td></td>
+                        <td>Immediate discussion required. Refer to PCP &plusmn; mental health specialist or emergency resource for further assessment and intervention as appropriate. Urgency of referral will depend on several factors including: whether the suicidal ideation is accompanied by a plan, whether there has been a history of suicide attempts, whether symptoms of a psychotic disorder are present and/or there is concern about harm to the baby.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="text-small">Source: BC Reproductive Mental Health Program and Perinatal Services BC. (2014), Best Practice Guidelines for Mental Health Disorders in the Perinatal Period. Available at: [http://tiny.cc/MHGuidelines] this is a dead link -- please provide</p>
+                </div>
+              </article>
+
+              <article id="GAD" class="mb-4 mb-md-6">
+                <h3>
+                  <p>GAD-7 &mdash; Generalized Anxiety Disorder Screen</p>
+                </h3>
+                <div>
+                  <table class="table table-striped">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" width="20%">GAD-7 Score</th>
+                        <th scope="col" width="20%">Interpretation</th>
+                        <th scope="col" width="60%">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">0 &ndash; 4</th>
+                        <td>Minimal risk of anxiety</td>
+                        <td>Continue support and education</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5 &ndash; 9</th>
+                        <td>Mild risk of anxiety</td>
+                        <td>Continue support, education, and monitor. Re-screen often. Provide resources.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10 &ndash; 14</th>
+                        <td>Moderate risk of anxiety</td>
+                        <td>Refer to PCP &plusmn; mental health services for follow-up. Re-screen often. Assess for SI/HI and intrusive thoughts.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15+</th>
+                        <td>Severe risk of anxiety</td>
+                        <td>Refer to PCP &plusmn; mental health services for follow-up. Re-screen often and monitor closely. Treatment plan that includes psychotherapy and possibly medications. Assess for SI/HI and intrusive thoughts.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Notes on intrusive thoughts</th>
+                        <td></td>
+                        <td>May <u>not</u> indicate immediate action and referral to mental health care. Refer to PCP &plusmn; mental health specialist or emergency resource for further assessment and intervention as appropriate. Urgency of referral will depend on several factors including: whether the intrusive thoughts that are homicidal in nature are accompanied by a plan or intentions, whether symptoms of a psychotic disorder are present and/or there is concern about harm to the baby.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p class="text-small">Source: Adapted from First 5 LA High Risk Protocol</p>
+                </div>
+              </article>
+
+             
+              <article id="referral" class="mb-4 mb-md-6">
+                <h3>
+                  <p>Referral Strategies</p>
+                </h3>
+                <div>
+                  <p>It is best practice to research resources in your area to identify some of the following options and compile a resource list prepared to hand out when needed.</p>
+                  <ul>
+                    <li>Brochures</li>
+                      <ul>
+                        <li><a href="https://maternalmentalhealthnow.org/training/materials" target="_blank">Maternal Mental Health NOW - Speak Up When You’re Down</a></li>
+                      </ul>
+                    <li>24/7 Hotlines</li>
+                      <ul>
+                        <li><a href="https://www.postpartum.net" target="_blank">Postpartum Support International Warmline</a></li>
+                        <li><a href="https://suicidepreventionlifeline.org" target="_blank">Suicide Prevention Hotline</a></li>
+                      </ul>
+                    <li>Online Resources</li>
+                    <ul>
+                      <li>Online support groups</li>
+                      <li><a href="http://directory.maternalmentalhealthnow.org" target="_blank">Maternal Mental Health NOW Directory</a></li>
+                    </ul>
+                    <li>Mental Health Clinics</li>
+                    <ul>
+                      <li>Urgent Cares</li>
+                      <li>Outpatient therapy</li>
+                    </ul>
+                    <li>Local Therapists</li>
+                    <ul>
+                      <li><a href="https://www.psychologytoday.com/us/therapists/california?gclid=Cj0KCQiAs67yBRC7ARIsAF49CdVMQKGg1ArxKOszjMsXuUz3lk3GOKqlGIe-IqP4aomnPxj7bTjTVLMaApykEALw_wcB" target="_blank">Psychology Today</a></li>
+                    </ul>
+                    <li>Psychiatric units with experience treating perinatal patients</li>
+                  </ul>
+
+                </div>
+              </article>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pb-4 bg-primary-3 text-light" id="footer">
+      <div class="row justify-content-center mb-2">
+        <ul class="nav">
+              <li class="nav-item">
+                <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://twitter.com/mmhealthnow" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.youtube.com/channel/UCBhuddiZ0G7Ywz4nIJuAJcQ" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="https://www.instagram.com/maternalmentalhealthnow/" target="_blank" class="nav-link">
+                  <img class="icon undefined" src="assets/img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                </a>
+              </li>
+            </ul>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-auto text-center">
+            <small class="text-muted">&copy; 2020 Maternal Mental Health NOW</small><br>
+            <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up"  data-aos-mirror="true" data-aos-once="false">
+      <img class="icon" src="assets/img/icons/theme/navigation/arrow-up.svg" alt="arrow-up icon" data-inject-svg />
+    </a>
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="assets/js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="assets/js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="assets/js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="assets/js/jarallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="assets/js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="assets/js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="assets/js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="assets/js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="assets/js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="assets/js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="assets/js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="assets/js/theme.js"></script>
+    <!-- Removes page load animation when window is finished loading -->
+    <script type="text/javascript">
+      window.addEventListener("load", function () {
+        document.querySelector('body').classList.add('loaded');
+      });
+    </script>
+
+  </body>
+
+</html>
