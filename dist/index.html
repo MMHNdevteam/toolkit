@@ -2,8 +2,19 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70256911-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-70256911-5');
+    gtag('config', 'UA-70256911-4');
+  </script>
   <meta charset="utf-8">
-  <title>MMHN Toolkit</title>
+  <title>MMHN Guide</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Screening for Perinatal Mood & Anxiety Disorders">
   <link href="<link href=" https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"
@@ -66,7 +77,6 @@
 
   <section class="container-fluid py-0">
     <div class="row">
-
       <div class="col-12 col-md-3 col-lg-2 border-right pt-3 pt-md-5 docs-sidebar">
         <div id="docs-index" class="collapse">
           <div class="mb-3 mb-md-4">
@@ -76,6 +86,21 @@
             <a href="index.html#PMH">
               <h6 class="mb-2">Perinatal Mental Health Disorders (PMH)</h6>
             </a>
+          </div>
+          <div class="mb-3 mb-md-4">
+            <a href="index.html#screening">
+              <h6 class="mb-2">Screening</h6>
+            </a>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="index.html#EDPS" class="nav-link text-small">EDPS</a></li>
+              <li class="nav-item">
+              <a href="index.html#PHQ" class="nav-link text-small">PHQ-9</a></li>
+              <li class="nav-item">
+                <a href="index.html#GAD" class="nav-link text-small">GAD-7</a></li>
+              <li class="nav-item">
+                <a href="index.html#scripts" class="nav-link text-small">Scripts</a></li>
+            </ul>
           </div>
           <div class="mb-3 mb-md-4">
             <a href="index.html#highrisk">
@@ -92,25 +117,14 @@
                 <a href="index.html#substanceUse" class="nav-link text-small">Substance Abuse</a></li>
             </ul>
           </div>
-
           <div class="mb-3 mb-md-4">
-            <a href="index.html#screening">
-              <h6 class="mb-2">Screening</h6>
+            <a href="index.html#culture">
+              <h6 class="mb-2">Cultural Humility & Considerations</h6>
             </a>
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a href="index.html#PHQ" class="nav-link text-small">PHQ-9</a></li>
-              <li class="nav-item">
-                <a href="index.html#EDPS" class="nav-link text-small">EDPS</a></li>
-              <li class="nav-item">
-                <a href="index.html#GAD" class="nav-link text-small">GAD-7</a></li>
-              <li class="nav-item">
-                <a href="index.html#referral" class="nav-link text-small">Referral Resources</a></li>
-            </ul>
           </div>
           <div class="mb-3 mb-md-4">
-            <a href="index.html#scripts">
-              <h6 class="mb-2">Scripts</h6>
+            <a href="index.html#referral">
+              <h6 class="mb-2">Referral Resources</h6>
             </a>
           </div>
           <div class="mb-3 mb-md-4">
@@ -125,17 +139,30 @@
         <div class="row">
           <div class="col-xl-10 col-lg-9 px-xl-6 px-lg-4 px-md-3 py-md-5">
             <div class="card card-body card-lg shadow-3d rounded-sm mb-4 mb-md-5">
-              <h1>Screening for Perinatal Mood &amp; Anxiety Disorders: Best Practices &amp; Guidance
+              <h1>Maternal Mental Health in the Hospital Setting: What to Know &amp; How to Screen
               </h1>
               <div class="lead">
-                <p style="color: #D9499F;">Maternal Mental Health NOW &mdash; 2020 Edition</p>
+                <p style="color: #D9499F;">This is a quick reference guide designed to accompany the online training available here:</p>
               </div>
+
+              
+
+              <!-- <div class="lead">
+                <p style="color: #D9499F;">Maternal Mental Health NOW &mdash; 2020 Edition</p>
+              </div> -->
               <p class="text-small">Always follow your hospital’s protocols and procedures</p>
             </div>
-
-            <article id="PMH" class="mb-4 mb-md-6">
-              <h3>Perinatal Mental Health Disorders (PMH)</h3>
-
+            <article class="mb-4 mb-md-6">
+              <h3 id="PMH">Perinatal Mental Health Disorders (PMH)</h3>
+              <div>
+                <ul>
+                  <li>Perinatal Mental Health Disorders affect 1:7 mothers.</li>
+                  <li>Perinatal Mental Health Disorders can occur from conception through one year after birth. If left
+                    untreated, women can experience symptoms of depression and anxiety through two years after birth
+                    and beyond.</li>
+                  <li>Baby Blues is not a disorder and resolves on its own by two weeks postpartum.</li>
+                </ul>
+              </div>
               <div>
                 <table class="table table-striped">
                   <thead class="thead-dark">
@@ -173,21 +200,11 @@
                   </tbody>
                 </table>
               </div>
-
-              <div>
-                <ul>
-                  <li>Perinatal Mental Health Disorders affect 1:6 mothers.</li>
-                  <li>Perinatal Mental Health Disorders can occur from conception through one year after birth. If left
-                    untreated, women can experience symptoms of depression and anxiety through two years after birth
-                    and beyond.</li>
-                  <li>Baby Blues is not a disorder and resolves on its own by two weeks postpartum.</li>
-                </ul>
-              </div>
             </article>
 
             <article id="screening" class="mb-4 mb-md-6">
               <h3>Screening</h3>
-              <div class="alert alert-primary">
+              <div>
                 <ul>
                   <li>It's a mother's right to be screened or not screened. It's important to provide the opportunity
                     for informed consent.</li>
@@ -197,10 +214,6 @@
                     without family members in the room.</li>
                   <li>Remain non-judgmental and neutral while completing screening tool.</li>
                   <li>Provide psychoeducation to reduce stigma.</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
                   <li>Screening tool results are NOT a diagnosis.</li>
                   <li>Screening can and should be done at each contact with the mother from pre-conception through 1-2
                     years postpartum.</li>
@@ -210,14 +223,14 @@
                 </ul>
               </div>
               <div>
-                <p>ACOG recommends mental health screening take place in the hospital post-delivery before discharge
+                <p><span style="font-weight: bold;">ACOG recommends</span> mental health screening take place in the hospital post-delivery before discharge
                   home, in addition to the following: the first prenatal visit, at least once in the second trimester,
                   once in the third trimester, at the six-week postpartum visit and annually at well women exams. It is
                   also recommended that screening take place in the pediatrician's office at the baby’s 3, 6 and 12
                   month well child visits and in the primary care office.</p>
               </div>
               <div>
-                <p>To facilitate screening, hospitals need to create welcoming and non-stigmatizing environments that
+                <p><span style="font-weight: bold;">To facilitate screening</span>, hospitals need to create welcoming and non-stigmatizing environments that
                   display information about perinatal mental health, thus educating and creating awareness about this
                   important issue for every patient and their support person(s). It is important that screening is done
                   with an inclusive, strength-based approach that emphasizes:</p>
@@ -236,8 +249,68 @@
                 </p>
               </div>
             </article>
+            <article class="mb-4 mb-md-6">
+              <div class="alert-primary" style="padding: 1em;">
+                <h4>On first contact with patient after delivery ...</h4>
+                <p>"Hi Anna, I’m glad to see you here today. How are you feeling? I want to ask you a few questions to
+                  check-in on how you have been doing to gather as much information as possible in order to best treat
+                  you. These questions are standard practice that are asked of every patient, but some of them can be a
+                  bit uncomfortable to answer. </p>
+                <p>It is not uncommon for women to have difficult emotions during pregnancy or after childbirth, and if
+                  you find that any of these questions resonate with you just know that you are not alone. Having a new
+                  baby is a big adjustment for anyone.</p>
+                <p id="EDPS">Okay, let's begin. Over the past 2 weeks have you felt ..."</p>
+              </div>
+            </article>
+            <article class="mb-4 mb-md-6">
+              <h3 id="EDPS">EPDS &mdash; Edinburgh Postnatal Depression Screen</h3>
+              <div>
+                <table class="table table-striped table-responsive">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">EDPS Score</th>
+                      <th scope="col">Interpretation</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Less than 8</th>
+                      <td>Depression <br>not likely</td>
+                      <td>Continue support and education</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9 &ndash; 11</th>
+                      <td>Depression <br>possible</td>
+                      <td>Support, re-screen in 2–4 weeks. Consider referral to Primary Care Provider (PCP).</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12 &ndash; 13</th>
+                      <td>Fairly high <br>possibility of <br>depression</td>
+                      <td>Monitor, support and offer education. Refer to PCP.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14 and higher (positive screen)</th>
+                      <td>Probable <br>depression</td>
+                      <td>Diagnostic assessment and treatment by PCP and/or specialist.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Positive score<br>(1, 2 or 3) on Question 10 (risk of suicidality)</th>
+                      <td>&nbsp;</td>
+                      <td>Immediate discussion required. Refer to PCP &plusmn; mental health specialist or emergency
+                        resource for further assessment and intervention as appropriate. Urgency of referral will depend
+                        on several factors including: whether the suicidal ideation is accompanied by a plan, whether
+                        there has been a history of suicide attempts, whether symptoms of a psychotic disorder are
+                        present and/or there is concern about harm to the baby.</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p id="PHQ" class="text-small">Source: BC Reproductive Mental Health Program and Perinatal Services BC. (2014),
+                  Best Practice Guidelines for Mental Health Disorders in the Perinatal Period.</p>
+              </div>
+            </article>
 
-            <article id="PHQ" class="mb-4 mb-md-6">
+            <article class="mb-4 mb-md-6">
               <h3>PHQ-9 Patient Health Questionnaire</h3>
               <div>
                 <table class="table table-striped table-responsive">
@@ -287,60 +360,12 @@
                     </tr>
                   </tbody>
                 </table>
-                <p class="text-small">Source: Kroenke K., Spitzer RL., Psychiatric Annals 2002; 32:509-521</p>
+                <p id="GAD" class="text-small">Source: Kroenke K., Spitzer RL., Psychiatric Annals 2002; 32:509-521</p>
               </div>
             </article>
 
-            <article id="EDPS" class="mb-4 mb-md-6">
-              <h3>EPDS &mdash; Edinburgh Postnatal Depression Screen</h3>
-              <div>
-                <table class="table table-striped table-responsive">
-                  <thead class="thead-dark">
-                    <tr>
-                      <th scope="col">EDPS Score</th>
-                      <th scope="col">Interpretation</th>
-                      <th scope="col">Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Less than 8</th>
-                      <td>Depression <br>not likely</td>
-                      <td>Continue support and education</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">9 &ndash; 11</th>
-                      <td>Depression <br>possible</td>
-                      <td>Support, re-screen in 2–4 weeks. Consider referral to Primary Care Provider (PCP).</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">12 &ndash; 13</th>
-                      <td>Fairly high <br>possibility of <br>depression</td>
-                      <td>Monitor, support and offer education. Refer to PCP.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">14 and higher (positive screen)</th>
-                      <td>Probable <br>depression</td>
-                      <td>Diagnostic assessment and treatment by PCP and/or specialist.</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Positive score<br>(1, 2 or 3) on Question 10 (risk of suicidality)</th>
-                      <td>&nbsp;</td>
-                      <td>Immediate discussion required. Refer to PCP &plusmn; mental health specialist or emergency
-                        resource for further assessment and intervention as appropriate. Urgency of referral will depend
-                        on several factors including: whether the suicidal ideation is accompanied by a plan, whether
-                        there has been a history of suicide attempts, whether symptoms of a psychotic disorder are
-                        present and/or there is concern about harm to the baby.</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <p class="text-small">Source: BC Reproductive Mental Health Program and Perinatal Services BC. (2014),
-                  Best Practice Guidelines for Mental Health Disorders in the Perinatal Period.</p>
-              </div>
-            </article>
-
-            <article id="GAD" class="mb-4 mb-md-6">
-              <h3>GAD-7 &mdash; Generalized Anxiety Disorder Screen</h3>
+            <article class="mb-4 mb-md-6">
+              <h3 >GAD-7 &mdash; Generalized Anxiety Disorder Screen</h3>
               <div>
                 <table class="table table-striped table-responsive">
                   <thead class="thead-dark">
@@ -389,7 +414,7 @@
                 <p class="text-small">Source: Adapted from First 5 LA High Risk Protocol</p>
               </div>
 
-              <div class="alert-info">
+              <div class="alert-info" style="padding: 1em;">
                 <p="lead">Validation and presence is important:</p>
 
                   <ul>
@@ -413,80 +438,66 @@
               </div>
             </article>
 
-            <hr>
-            <article id="scripts" class="mb-4 mb-md-6">
+            <hr id="scripts">
+            <article class="mb-4 mb-md-6">
               <h3>
                 <p>Scripts</p>
               </h3>
-              <div>
-                <h5>On first contact with patient after delivery ...</h5>
-              </div>
-              <div class="alert-primary-3" id="scripts-first">
-                <p>"Hi Anna, I’m glad to see you here today. How are you feeling? I want to ask you a few questions to
-                  check-in on how you have been doing to gather as much information as possible in order to best treat
-                  you. These questions are standard practice that are asked of every patient, but some of them can be a
-                  bit uncomfortable to answer. </p>
-                <p>It is not uncommon for women to have difficult emotions during pregnancy or after childbirth, and if
-                  you find that any of these questions resonate with you just know that you are not alone. Having a new
-                  baby is a big adjustment for anyone.</p>
-                <p>Okay, let's begin. Over the past 2 weeks have you felt ..."</p>
-              </div>
               <div id="scripts-cases">
-                <hr>
                 <p><i>Mother is presenting with anxious symptoms, is scared to be discharged home with her baby and has
                     not allowed anyone else to touch or care for the baby since childbirth. Patient scored a 14 on the
                     GAD-7 screen.</i></p>
-                <p class="alert-primary-3">"Thank you for completing this screening tool. It looks like you have
+                <p class="alert-primary-3" style="padding: 1em;">"Thank you for completing this screening tool. It looks like you have
                   endorsed some feelings of anxiety, would you say that this is accurate for you? I would like to ask
                   you some more questions if that is okay, just to get a better sense of how you have been adjusting and
                   how we can help you to feel better. My goal is to make sure that you feel as supported as possible,
                   and that you and your baby are safe."</p>
-                <p class="alert-primary-3">"When did you notice these symptoms began? And how have you been managing
+                <p class="alert-primary-3" style="padding: 1em;">"When did you notice these symptoms began? And how have you been managing
                   them?"</p>
-                <p class="alert-primary-3">"Are you having any scary or unusual thoughts? If so, how do you feel about
+                <p class="alert-primary-3" style="padding: 1em;">"Are you having any scary or unusual thoughts? If so, how do you feel about
                   them?"</p>
-                <p class="alert-primary-3">"What is your support system like? Is there anyone that you trust who we can
+                <p class="alert-primary-3" style="padding: 1em;">"What is your support system like? Is there anyone that you trust who we can
                   involve in your care plan?"</p>
-                <p class="alert-primary-3">"Would you be willing to receive a referral to talk to someone about how
+                <p class="alert-primary-3" style="padding: 1em;">"Would you be willing to receive a referral to talk to someone about how
                   you’ve been feeling and get some additional help? Based on your screening and our discussion, I
                   strongly recommend that we set something up before you go home."</p>
-                <p class="alert-primary-3">"Can we help you to make an appointment?"</p>
+                <p class="alert-primary-3" style="padding: 1em;">"Can we help you to make an appointment?"</p>
               </div>
               <hr>
               <div>
                 <p><i>Mother with depressive symptoms, does not seem to be bonding with her baby and has not been seen
                     providing much infant care since birth. Patient scored a 14 on the EPDS.</i></p>
-                <p class="alert-primary-3">"Thank you for completing this screening tool. It looks like you have
+                <p class="alert-primary-3" style="padding: 1em;">"Thank you for completing this screening tool. It looks like you have
                   endorsed some feelings of depression, would you say that this is accurate for you? I would like to ask
                   you some more questions if that is okay, just to get a better sense of how you have been adjusting and
                   how we can help you to feel better. My goal is to make sure that you feel as supported as possible,
                   and that you and your baby are safe."</p>
-                <p class="alert-primary-3">"When did you notice these symptoms began? And how have you been managing
+                <p class="alert-primary-3" style="padding: 1em;">"When did you notice these symptoms began? And how have you been managing
                   them?"</p>
-                <p class="alert-primary-3">"Are you having any scary or unusual thoughts? If so, how do you feel about
+                <p class="alert-primary-3" style="padding: 1em;">"Are you having any scary or unusual thoughts? If so, how do you feel about
                   them?"</p>
-                <p class="alert-primary-3">"What is your support system like? Is there anyone that you trust who we can
+                <p class="alert-primary-3" style="padding: 1em;">"What is your support system like? Is there anyone that you trust who we can
                   involve in your care plan?"</p>
-                <p class="alert-primary-3">"Would you be willing to receive a referral to talk to someone about how
+                <p class="alert-primary-3" style="padding: 1em;">"Would you be willing to receive a referral to talk to someone about how
                   you’ve been feeling and get some additional help? Based on your screening and our discussion, I
                   strongly recommend that we set something up before you go home."</p>
-                <p class="alert-primary-3">"Can we help you to make an appointment?"</p>
+                <p class="alert-primary-3" style="padding: 1em;">"Can we help you to make an appointment?"</p>
               </div>
               <hr>
               <div>
                 <p><i>Mother with no apparent mental health concerns, but interested in what to monitor for in the
                     postpartum period due to her history with depression and anxiety personally and in her family.
                     Patient scored an 8 on the PHQ-9.</i></p>
-                <p class="alert-primary-3">"Thank you for completing this screening tool. It looks like you have
+                <p class="alert-primary-3" style="padding: 1em;">"Thank you for completing this screening tool. It looks like you have
                   endorsed some feelings of depression, would you say that this is accurate for you? I would like to ask
                   you some more questions if that is okay, just to get a better sense of how you have been adjusting. My
                   goal is to make sure that you feel as supported as possible, and that you and your baby are safe."</p>
-                <p class="alert-primary-3">"How have you been feeling during this transition since having your baby?"
+                <p class="alert-primary-3" style="padding: 1em;">"How have you been feeling during this transition since having your baby?"
                 </p>
-                <p class="alert-primary-3">"Are you having any scary or unusual thoughts? If so, how do you feel about
+                <p class="alert-primary-3" style="padding: 1em;">"Are you having any scary or unusual thoughts? If so, how do you feel about
                   them?"</p>
-                <p class="alert-primary-3">"What is your support system like?"</p>
-                <p class="alert-primary-3">"It is not uncommon to feel some waves of emotion, crying, and difficulty
+                <p class="alert-primary-3" style="padding: 1em;">"What is your support system like?"</p>
+                <p class="alert-primary-3" style="padding: 1em;">"It is not uncommon to feel some waves of emotion, crying, and difficulty
                   sleeping in these first couple of weeks since having your baby. However, if these symptoms persist,
                   worsen, or you feel something is generally off, it might be time to reach out for some additional
                   assessment and support. Perinatal mental illness can occur anytime in the perinatal period, from
@@ -548,7 +559,8 @@
                           href="tel:8332057141">(833) 205-7141</a></span>, Monday - Friday, 1 p.m. - 5 p.m. to speak
                       with a consultant immediately or to receive call back within 30 minutes.
                     </li>
-                    <li><a href="https://www.postpartum.net/professionals/perinatal-psychiatric-consult-line/" target="_blank">PSI Provider Psychiatric Consultation Line</a></li>
+                    <li><a href="https://www.postpartum.net/professionals/perinatal-psychiatric-consult-line/"
+                        target="_blank">PSI Provider Psychiatric Consultation Line</a></li>
                   </ul>
               </div>
             </article>
@@ -594,7 +606,7 @@
               <div class="alert-primary-2">
                 <h4 style="font-weight: bold;">SUICIDE/RISK ASSESSMENT</h4>
               </div>
-              <div class="alert-primary">
+              <div class="alert-primary" style="padding: 1em;">
                 <p>"Suicide is the number one cause of death in new mothers, over gestational diabetes, pregnancy
                   induced hypertension ..." &mdash; Emily Dossett, MD, Director of Women’s Health & Reproductive
                   Psychiatry, Los Angeles County Department of Mental Health</p>
@@ -727,7 +739,8 @@
 
               <div class="card alert-danger">
                 <div class="card-body" style="font-weight: bold;">
-                  <p>POSTPARTUM PSYCHOSIS is considered a medical emergency.</p><p>If you believe someone is in a psychotic
+                  <p>POSTPARTUM PSYCHOSIS is considered a medical emergency.</p>
+                  <p>If you believe someone is in a psychotic
                     state:</p>
                   <ul>
                     <li>DO NOT LEAVE HER ALONE WITH THE BABY</li>
@@ -811,6 +824,24 @@
     <div class="row justify-content-center mb-2">
       <ul class="nav">
         <li class="nav-item">
+          <a href="https://www.chcf.org" target="_blank" class="nav-link">
+            <img class="icon" src="assets/img/logos/chcf_sm_bk.jpg" alt="chcf icon"
+              data-inject-svg />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.hqinstitute.org" target="_blank" class="nav-link">
+            <img class="icon undefined" src="assets/img/logos/hqi.svg" alt="hqi icon"
+              data-inject-svg />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.maternalmentalhealthnow.org" target="_blank" class="nav-link">
+            <img class="icon undefined" src="assets/img/MMH-NOW-tree.svg" alt="mmhn icon"
+              data-inject-svg />
+          </a>
+        </li>
+        <li class="nav-item">
           <a href="https://www.facebook.com/MaternalMentalHealthNow/" target="_blank" class="nav-link">
             <img class="icon undefined" src="assets/img/icons/social/facebook.svg" alt="facebook social icon"
               data-inject-svg />
@@ -836,13 +867,13 @@
         </li>
       </ul>
     </div>
-    <div class="row justify-content-center">
-      <div class="col col-md-auto text-center">
-        <small class="text-muted">&copy; 2020 Maternal Mental Health NOW</small><br>
-        <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a
-            href="https://communitypartners.org" target="_blank">Community Partners</a></small>
+      <div class="row justify-content-center">
+        <div class="col col-md-auto text-center">
+          <small class="text-muted">Maternal Mental Health NOW is a project of 501(c)3 fiscal sponsor <a
+              href="https://communitypartners.org" target="_blank">Community Partners</a></small><br>
+          <small class="text-muted">&copy; 2020 Maternal Mental Health NOW</small>
+        </div>
       </div>
-    </div>
     </div>
   </footer>
   <a href="#" class="btn back-to-top btn-primary btn-round" data-smooth-scroll data-aos="fade-up" data-aos-mirror="true"
